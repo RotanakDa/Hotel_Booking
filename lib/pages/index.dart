@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hotel_booking_app/pages/Aboutus.dart';
+import 'package:hotel_booking_app/pages/roompage.dart';
 import 'package:hotel_booking_app/testingpage/book_page.dart';
 import 'package:hotel_booking_app/pages/splash_screen.dart';
 import 'package:hotel_booking_app/testingpage/BookingPage.dart';
@@ -153,7 +154,7 @@ class index extends StatelessWidget {
           children: [
             _buildCategoryIcon(context, Icons.bookmark_add, 'Booking', Booking()),
             _buildCategoryIcon(context, Icons.restaurant, 'Restaurants', AboutUsPage()),
-            _buildCategoryIcon(context, Icons.shopping_bag, 'Shopping', SplashScreen()),
+            _buildCategoryIcon(context, Icons.shopping_bag, 'Shopping', roompage()),
             _buildCategoryIcon(context, Icons.info, 'About Us', AboutUsPage()),
           ],
         ),
